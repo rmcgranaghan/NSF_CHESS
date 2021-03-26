@@ -4,5 +4,6 @@ This repository holds resources related to the National Science Foundation (NSF)
 
 Included: 
 - Presentation and corresponding resources given by Principal Investigator Ryan McGranaghan to the NASA Goddard Space Flight Center on March 18, 2020 (note the zip file containing the figures for the Python Notebook is [stored in Google Drive](https://drive.google.com/open?id=1JkLruiVbadWIpFWraoPoTvkckoVViRC0) due to file size limitations)
+- Script to triplify CHESS data and explore the graph DB
 
 More resources are available. Contact Ryan McGranaghan (ryan.mcgranaghan@gmail.com) to contribute!
