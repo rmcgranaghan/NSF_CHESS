@@ -1,4 +1,4 @@
-# NSF_CHESS
+# The Sun-to-Power Grid System and an Open Knowledge Network and Community to improve grid resilience
 
 This repository holds resources related to the National Science Foundation (NSF) [Convergence Accelerator](https://www.nsf.gov/od/oia/convergence-accelerator/index.jsp) project: [The Convergence Hub for the Exploration of Space Science (CHESS)](https://www.nsf.gov/od/oia/convergence-accelerator/Award%20Listings/Track%20A%20Abstracts/A-7152-McGranaghan-ASTRA.pdf) and the subsequent NSF-funded workshop: "[Simulating Space Weather Extremes: A Workshop to Identify Research Needs to Improve Power Grid Resilience to Geomagnetic Activity](https://github.com/rmcgranaghan/NSF_CHESS/blob/master/Simulating%20Space%20Weather%20Extremes%20Summary.pdf)."
 
