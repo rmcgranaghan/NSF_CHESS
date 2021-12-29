@@ -1,0 +1,13 @@
+name: sim_env 
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python
+- pip
+- numpy
+- matplotlib
+- pandas
+- spacepy
+- nasaomnireader
+- ovationpyme
