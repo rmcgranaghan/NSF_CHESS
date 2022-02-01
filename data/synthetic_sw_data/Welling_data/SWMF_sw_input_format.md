@@ -1,0 +1,13 @@
+This is a readme to describe the format of the solar wind input to SWMF and the format used in the imf_extreme.dat file. Reference is [SWMF documentation](https://github.com/MSTEM-QUDA/SWMF/blob/stable/doc/SWPC_primer.docx)
+
+file contains the solar wind and interplanetary magnetic field data propagated to the inflow boundary of the global magnetosphere domain (typically at x=32Re in the GSM coordinate system). The IMF file is a simple ASCII file that should have the following format:
+#START
+2006 12 14  7  0  0 0    5.00   -3.01   -0.56  -585.89   -11.35     1.73    1.39   171087.25  comments
+2006 12 14  7  1  0 0   -2.30  -2.82   -0.82  -583.52   -12.21     1.25    1.43   172988.88  or other
+2006 12 14  7  2  0 0   -2.01   -2.77   -0.77  -580.37   -13.88    -1.11    1.56   172606.37  columns
+…
+where the “#START” indicates the start of the solar wind data containing 15 space separated columns per line. The first 7 columns are integers containing the date and time from year down to milliseconds in coordinated universal time, UTC. The next three columns contain the 3 components of the interplanetary magnetic field BSW in nT, the next 3 columns are the 3 components of the velocity vSW in km/s, the next column is the number density nSW in cm-3, and the last column is the ion temperature TSW in K. The vector quantities are in the GSM coordinate system by default (this can be modified as described in the GM/BATSRUS/PARAM.XML file for the #SOLARWINDFILE command). Since BATS-R-US runs in single fluid MHD mode in the Geospace model using protons and negligible electron temperature, the mass density will be the number density times the proton mass, and the thermal pressure will be pSW = nSWkTSW. Important notes:
+1.	The X component of the magnetic field should not be set to zero (CCMC tends to do that).
+2.	For proper linear interpolation in time the file should contain at least two data rows.  
+3.	The time series should be monotonically increasing, but it does not have to be uniformly spaced.
+4.	There can be additional characters at the end of the lines as long as the 7 integers and 8 real numbers are present and properly separated with spaces.
