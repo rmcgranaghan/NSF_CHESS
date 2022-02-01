@@ -1,4 +1,4 @@
-This is a readme to describe the format of the solar wind input to SWMF and the format used in the imf_extreme.dat file. Reference is [SWMF documentation](https://github.com/MSTEM-QUDA/SWMF/blob/stable/doc/SWPC_primer.docx)
+This is a readme to describe the format of the solar wind input to SWMF and the format used in the imf_extreme.dat file. Reference is SWMF documentation (https://github.com/MSTEM-QUDA/SWMF/blob/stable/doc/SWPC_primer.docx)
 
 file contains the solar wind and interplanetary magnetic field data propagated to the inflow boundary of the global magnetosphere domain (typically at x=32Re in the GSM coordinate system). The IMF file is a simple ASCII file that should have the following format:
 #START
