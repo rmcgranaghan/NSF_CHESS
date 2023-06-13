@@ -1,0 +1,17 @@
+# run: conda env create --file environment_network.yml
+name: spwxr_network
+dependencies:
+    - python=3.9
+    - numpy
+    - matplotlib
+    - scipy
+    - IPython
+    - nbconvert=5.4.1
+    - pandas
+    - pip
+    - pip:
+      - jupyter 
+      - datetime
+      - osmnx
+      - networkx
+      - folium
