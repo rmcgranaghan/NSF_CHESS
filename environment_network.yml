@@ -15,3 +15,4 @@ dependencies:
       - osmnx
       - networkx
       - folium
+      - plotly
