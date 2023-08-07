@@ -8,6 +8,7 @@ dependencies:
     - IPython
     - nbconvert=5.4.1
     - pandas
+    - seaborn
     - pip
     - pip:
       - jupyter 
@@ -16,3 +17,4 @@ dependencies:
       - networkx
       - folium
       - plotly
+      - sunpy[all]
